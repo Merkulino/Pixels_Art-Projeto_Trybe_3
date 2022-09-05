@@ -1,0 +1,150 @@
+/* stylelint-disable font-family-name-quotes */
+* {
+  font-family: 'Righteous', cursive;
+}
+
+body {
+  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/850d5888-f262-47d0-bb7b-34d03cd8d3ee/db6uwhg-aebcdfe7-02a6-4957-bd28-519073d39305.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzg1MGQ1ODg4LWYyNjItNDdkMC1iYjdiLTM0ZDAzY2Q4ZDNlZVwvZGI2dXdoZy1hZWJjZGZlNy0wMmE2LTQ5NTctYmQyOC01MTkwNzNkMzkzMDUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Rrr6qUo5Hz60_r0gYRYEqRVdqc5FXy_Xk32J8pKOIrc');
+  background-size: 100% 1200px;
+  background-repeat: repeat-y;
+  height: auto;
+  margin-top: 70px;
+}
+
+header {
+  background-color: rgba(241, 173, 206, 0.904);
+  width: 80vw;
+  margin: 20px auto 0;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5pt 5pt 0 0;
+  padding-bottom: 1px;
+}
+
+#tabBar {
+  background-color: whitesmoke;
+  border-radius: 5pt 5pt 0 0;
+  border-bottom: 1px solid black;
+  width: auto;
+  padding: 5px;
+  height: 14px;
+}
+
+#bolinhas {
+  width: 90px;
+  height: 20px;
+  display: flex;
+  gap: 5px;
+  margin-left: 5px;
+}
+
+.bolinha {
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+}
+
+.bolinha:first-child {
+  background-color: #FB615C;
+}
+
+.bolinha:nth-child( 2 ) {
+  background-color: #FDBD44;
+}
+
+.bolinha:last-child {
+  background-color: #29CA4E;
+}
+
+#color-palette {
+  width: fit-content;
+  margin: auto;
+}
+
+.color {
+  border: 1px solid rgb(190, 226, 226);
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+
+.color:first-child {
+  background-color: black;
+}
+
+.color:nth-child( 2 ) {
+  background-color: red;
+}
+
+.color:nth-child( 3 ) {
+  background-color: green;
+}
+
+.color:last-child {
+  background-color: blue;
+}
+
+.btnSection {
+  width: fit-content;
+  margin: 10px auto;
+  text-align: center;
+}
+
+#btnDiv {
+  float: left;
+  width: fit-content;
+}
+
+.clearDiv {
+  float: right;
+}
+
+.customBoard h4 {
+  color: black;
+  display: inline-block;
+  margin-right: 5px;
+}
+
+main {
+  background-image: linear-gradient(rgba(241, 173, 206, 0.926), rgba(169, 203, 226, 0.987));
+  border: 1px solid black;
+  border-radius: 0 0 5pt 5pt;
+  border-top: none;
+  width: 80vw;
+  margin: 0 auto;
+  padding: 1px 0;
+  padding-bottom: 30px;
+}
+
+#boardTitle {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#board-size {
+  width: fit-content;
+}
+
+.boardSection {
+  width: fit-content;
+  margin: 25px auto;
+}
+
+#pixel-board {
+  width: fit-content;
+  height: fit-content;
+  max-width: 210px;
+  max-height: 210px;
+  border: 1px solid rgb(190, 226, 226);
+  border-radius: 5px;
+}
+
+.pixel {
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #2c2c2c8b;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -4px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@0;1&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Pixel Art Program</title>
+</head>
+<body>
+    <header>
+        <nav id="tabBar">
+            <div id="bolinhas">
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+                <div class="bolinha"></div>
+            </div>
+        </nav>
+        <h1 id="title">Pixel Art</h1>
+        <div id="color-palette">
+            <div class="color selected"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+        <section class="btnSection">
+            <div id="btnDiv">
+                <button id="button-random-color">Cores aleatórias</button>
+            </div>
+            <div class="clearDiv">
+                <button id="clear-board">Limpar</button>
+            </div>
+            <div class="customBoard">
+                <h4>Pixels</h4>
+                <input type="number" id="board-size" max="20" min="1" placeholder="5"></input>
+                <button id="generate-board">Gerar</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div id="boardTitle">
+            <h3 id="pixelsTitle">5x5</h3>
+        </div>
+        <section class="boardSection">
+            <div id="pixel-board">
+            </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

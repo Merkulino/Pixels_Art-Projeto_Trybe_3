@@ -55,7 +55,7 @@ Requisitos Bônus
 
 Como citado anteriormente, estou melhorando a interface ao decorrer dos dias. Desenvolvendo o projeto, senti que uma interface no estilo [Vaporwave](https://pt.wikipedia.org/wiki/Vaporwave) casava bastante com o tema do projeto. Me inspirando em alguns materias, a interface ficou dessa forma: 
 
-**FOTO**
+![alt text](/imgs/page.png)
 
 Caso queria fazer a sua pixel art, entra la na [pagina!](https://merkulino.github.io/Pixels_Art-Projeto_Trybe_3/) 
 

@@ -134,17 +134,16 @@ main {
 #pixel-board {
   width: fit-content;
   height: fit-content;
-  max-width: 210px;
-  max-height: 210px;
+  max-width: 220px;
+  max-height: 220px;
   border: 1px solid rgb(190, 226, 226);
-  border-radius: 5px;
 }
 
 .pixel {
   background-color: white;
   display: inline-block;
   border: 1px solid #2c2c2c8b;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   margin-bottom: -4px;
 }

@@ -11,10 +11,10 @@ function gerarPixels(num) {
     if (localStorage.getItem('boardSize') !== null) {
       value = localStorage.getItem('boardSize');
       const result = Math.ceil(Math.sqrt(value));
-      board.style.maxWidth = `${(40 * result) + (result + result)}px`;
-      board.style.maxHeight = `${(40 * result) + (result + result)}px`;
+      board.style.maxWidth = `${(20 * result) + (result + result)}px`;
+      board.style.maxHeight = `${(20 * result) + (result + result)}px`;
     } else {
-      value = 25;
+      value = 100;
     }
   }
   for (let i = 0; i < value; i += 1) {
@@ -155,10 +155,10 @@ btnClearBoard.addEventListener('click', ClearBoard);
 function sizeBoard() {
   const input = document.querySelector('#board-size');
   if (input.value !== '' && input.value >= 5) {
-    const result = input.value > 20 ? 20 : Number(input.value);
+    const result = input.value > 35 ? 35 : Number(input.value);
     removerPixels();
-    board.style.maxWidth = `${(40 * result) + (result + result)}px`;
-    board.style.maxHeight = `${(40 * result) + (result + result)}px`;
+    board.style.maxWidth = `${(20 * result) + (result + result)}px`;
+    board.style.maxHeight = `${(20 * result) + (result + result)}px`;
     gerarPixels(result * result);
   } else {
     alert('Board inválido!');
